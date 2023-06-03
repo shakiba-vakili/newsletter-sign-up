@@ -4,9 +4,9 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ## Welcome! 👋
 
-![Design preview for the Newsletter sign-up form with success message coding challenge](./assets/images/demo1.png)
+![Design preview for the Newsletter sign-up form with success message coding challenge](./assets/demo1.png)
 
-<img src='./assets/images/demo2.png'>
+<img src='./assets/demo2.png'>
 
 ### Built with
 
