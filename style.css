@@ -1,0 +1,174 @@
+/* root varaibles */
+:root {
+  --Tomato: hsl(4, 100%, 67%);
+  --Dark-Slate-Grey: hsl(234, 29%, 20%);
+  --Charcoal-Grey: hsl(235, 18%, 26%);
+  --Grey: hsl(231, 7%, 60%);
+  --White: hsl(0, 0%, 100%);
+}
+
+/* REST */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  appearance: none;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background: var(--Charcoal-Grey);
+  user-select: none;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--Dark-Slate-Grey);
+}
+
+.container {
+  margin: 0 auto;
+  width: 730px;
+  height: 460px;
+  background-color: var(--White);
+  border-radius: 2rem;
+}
+
+.attribution {
+  margin-top: 1rem;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 56%, 75%);
+}
+
+.gradiant {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+}
+
+.gradiant img {
+  margin: 1rem 1.5rem;
+  width: 290px;
+}
+
+.text {
+  padding-left: 3rem;
+}
+.text h1 {
+  padding-top: 6rem;
+  font-size: 3rem;
+}
+.text p {
+  width: 90%;
+  padding-top: 1.2rem;
+  font-size: 10px !important;
+}
+
+.text ul {
+  padding-top: 1.4rem;
+}
+
+.text ul li {
+  line-height: 2.5rem;
+}
+
+.text ul li img {
+  padding: 0;
+  margin: 0;
+  width: 1rem;
+}
+
+.message {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .gradiant .text h3,
+.checkEmail {
+  padding: 2rem 0 1rem;
+  font-size: 12px;
+}
+.checkEmail {
+  color: #ff5969;
+}
+.container .gradiant .text input {
+  border: 1px solid var(--Dark-Slate-Grey);
+  padding: 0.5rem;
+  width: 90%;
+  border-radius: 0.5rem;
+}
+
+.container .gradiant .text button {
+  cursor: pointer;
+  margin-top: 3rem;
+  padding: 1rem;
+  width: 90%;
+  border-radius: 0.5rem;
+  font-size: 10px;
+  color: white;
+  background: linear-gradient(to left, hsl(4, 100%, 67%), #ff5969);
+}
+.container .gradiant .text button:active,
+.container .gradiant .text button:hover {
+  box-shadow: 1px 2px 20px #ff5969;
+}
+
+.hide {
+  display: none;
+}
+
+.success {
+  margin: 0 auto;
+  width: 380px;
+  height: 400px;
+  background-color: var(--White);
+  border-radius: 2rem;
+  padding: 4rem;
+}
+
+.success img {
+  width: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.success h1 {
+  font-size: 3rem;
+}
+
+.success p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.btn2 {
+  cursor: pointer;
+  margin-top: 3rem;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  font-size: 10px;
+  color: white;
+  background: linear-gradient(to left, hsl(4, 100%, 67%), #ff5969);
+}
+
+.success span {
+  font-weight: 700;
+}
